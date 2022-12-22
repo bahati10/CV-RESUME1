@@ -1,5 +1,10 @@
-const btn = document.getElementById('btn');
+function changeColor(link) {
+  link.style.color = generateRandomColor();
+}
 
-btn.addEventListener('click', function onClick(event) {
-  btn.style.color = '#46B1C9';
-});
+function generateRandomColor() {
+  let r = Math.floor(Math.random() * 256);
+  let g = Math.floor(Math.random() * 256);
+  let b = Math.floor(Math.random() * 256);
+  return `rgb(${r}, ${g}, ${b})`;
+}

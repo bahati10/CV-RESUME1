@@ -1,6 +1,7 @@
 body{
     background: #F3F3F3;
     font-family: 'Inter', sans-serif;
+    min-width: 345px;
 
 }
 
@@ -37,9 +38,18 @@ body{
     top: 0;
     grid-area: header;
     background: white;
-    padding: 5px 0;
+    padding: 3% 0;
 }
 
+.grid-2{
+    margin-left: 56%;
+    max-width: 30%;
+}
+
+
+.name{
+    font-weight: 600;
+}
 
 .heading{
     margin-top: 14%;
@@ -47,13 +57,12 @@ body{
     max-width: 300px;
     max-height: 100px; 
 }
-
 a{
-    font-weight: 600;
+    color: #000;
+    text-decoration: none;
 }
 
 .grid-2 img{
-    margin-left: 55%;
     border-radius: 50%;
     max-width: 100px;
     max-height: 100px;
@@ -140,6 +149,11 @@ button{
 }
 @media screen and (max-width: 700px) {
     .grid-2 img{
+        margin-top: 7%;
+        margin-left: 6%;
+    }
+
+        .grid-2{
         margin-top: 7%;
         margin-left: 6%;
     }
