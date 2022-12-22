@@ -27,18 +27,17 @@ body{
 
 .grid-item{
     display: grid;
-    grid-template-rows: 110px;
+    grid-template-rows: 10px;
     grid-column-gap: 90px;
 }
 
 .grid-item-1{
-    /* border: 2px solid red; */
     display: grid;
     position: sticky;
     top: 0;
     grid-area: header;
     background: white;
-    padding: 3% 0;
+    padding: 5% 0;
 }
 
 .grid-2{
@@ -52,7 +51,7 @@ body{
 }
 
 .heading{
-    margin-top: 14%;
+    margin-top: 4%;
     margin-left: 3.2%;  
     max-width: 300px;
     max-height: 100px; 
@@ -149,7 +148,7 @@ button{
 }
 @media screen and (max-width: 700px) {
     .grid-2 img{
-        margin-top: 7%;
+        margin-top: 40%;
         margin-left: 6%;
     }
 
